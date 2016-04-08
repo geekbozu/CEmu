@@ -91,7 +91,7 @@ SOURCES +=  utils.cpp \
     ../../core/misc.c \
     ../../core/schedule.c \
     ../../core/timers.c \
-    ../../core/usb.c \
+    ../../core/usb/usb.c \
     ../../core/sha256.c \
     ../../core/realclock.c \
     ../../core/backlight.c \
@@ -148,7 +148,8 @@ HEADERS  +=  utils.h \
     ../../core/misc.h \
     ../../core/schedule.h \
     ../../core/timers.h \
-    ../../core/usb.h \
+    ../../core/usb/fotg210.h \
+    ../../core/usb/usb.h \
     ../../core/sha256.h \
     ../../core/realclock.h \
     ../../core/backlight.h \

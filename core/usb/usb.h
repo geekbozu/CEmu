@@ -5,11 +5,12 @@
 extern "C" {
 #endif
 
-#include "apb.h"
+#include "../apb.h"
+#include "fotg210.h"
 
 /* Standard USB state */
 PACK(typedef struct usb_state {
-    uint8_t dummy;
+    struct fotg210_regs regs;
 }) usb_state_t;
 
 /* Global GPT state */

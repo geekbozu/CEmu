@@ -16,7 +16,6 @@ extern "C" {
 #include "lcd.h"
 #include "backlight.h"
 #include "timers.h"
-#include "usb.h"
 #include "realclock.h"
 #include "sha256.h"
 

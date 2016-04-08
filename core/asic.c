@@ -7,7 +7,7 @@
 #include "cpu.h"
 #include "mem.h"
 #include "lcd.h"
-#include "usb.h"
+#include "usb/usb.h"
 #include "asic.h"
 #include "misc.h"
 #include "flash.h"
