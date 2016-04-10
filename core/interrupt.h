@@ -15,6 +15,7 @@ extern "C" {
 #define INT_KEYPAD    10
 #define INT_LCD       11
 #define INT_RTC       12
+#define INT_USB       13
 #define INT_PWR       15
 
 typedef struct interrupt_request {
